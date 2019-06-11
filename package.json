@@ -1,0 +1,22 @@
+{
+  "name": "closure-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make-deps": "closure-make-deps --root=src --closure-path=node_modules/google-closure-library/closure/goog > deps.js",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-closure-library": "^20190528.0.0",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "google-closure-compiler": "^20190528.0.0",
+    "google-closure-deps": "^20190528.0.0"
+  }
+}
