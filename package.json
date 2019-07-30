@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "make-deps": "closure-make-deps --root=entry-es-module-es --closure-path=node_modules/google-closure-library/closure/goog -f=node_modules/google-closure-library/closure/goog/deps.js > entry-es-module-es/myproject-deps.js",
+    "make-deps": "closure-make-deps --root=entry-goog-module-es --closure-path=node_modules/google-closure-library/closure/goog -f=node_modules/google-closure-library/closure/goog/deps.js > entry-goog-module-es/myproject-deps.js",
     "depswriter": "node_modules/google-closure-library/closure/bin/build/depswriter.py --root_with_prefix=\"myproject ../../../../myproject\" > myproject/myproject-deps.js",
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
