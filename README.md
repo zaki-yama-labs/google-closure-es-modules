@@ -1,3 +1,39 @@
+Google Closure Compiler/Library with ES Modules
+===============================================
+
+ClosureでES Modules形式のモジュールを読み込むサンプル。
+
+## Usage
+### ディレクトリ構成
+
+|ディレクトリ名|モジュール読み込み側|モジュール提供側|
+|:-:|:-:|:-:|:--|
+|`entry-goog-module-goog`|Closure Script|Closure Script|
+|`entry-es-module-es`|ES|ES||
+|`entry-goog-module-es`|Closure Script|ES|
+|`entry-goog-modules-module-es`|Closure Modules|ES|
+
+- Closure Script: `goog.provide`/`goog.require`で書かれたモジュール
+- Closure Modules: `goog.module`で書かれたモジュール
+- ES: `import/export`で書かれたモジュール
+
+### 動作確認方法
+
+```
+$ npm install
+$ npm start
+```
+
+するとローカルサーバーが起動するので、`http://localhost:8080/<各html>` を開いてください。
+
+## TODO
+- [x] Closure Modules x ES の組み合わせを試す
+- [ ] Closure Compiler でのコンパイル
+- [ ] [duck](https://github.com/teppeis/duck) を導入
+
+
+## Memo
+
 ### deps.js
 
 ```
