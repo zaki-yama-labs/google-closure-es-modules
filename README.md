@@ -7,9 +7,9 @@ ClosureでES Modules形式のモジュールを読み込むサンプル。
 ### ディレクトリ構成
 
 |ディレクトリ名|モジュール読み込み側|モジュール提供側|
-|:-:|:-:|:-:|:--|
+|:--|:-:|:-:|
 |`entry-goog-module-goog`|Closure Script|Closure Script|
-|`entry-es-module-es`|ES|ES||
+|`entry-es-module-es`|ES|ES|
 |`entry-goog-module-es`|Closure Script|ES|
 |`entry-goog-modules-module-es`|Closure Modules|ES|
 
